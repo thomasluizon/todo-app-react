@@ -1,0 +1,9 @@
+@use '../../../../variables/' as *;
+
+li {
+   list-style: none;
+   background: $gradient;
+   border-radius: 0.25rem;
+   padding: 0.5rem;
+   @include flex(space-between);
+}
